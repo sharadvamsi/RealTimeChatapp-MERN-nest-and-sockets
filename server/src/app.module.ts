@@ -18,6 +18,6 @@ import { ChatGateway } from './chat.gateway';
     
   ],
   controllers: [AppController,],
-  providers: [AppService,ChatGateway], // Ensure MessagesModel is provided
+  providers: [AppService,ChatGateway],
 })
 export class AppModule {}

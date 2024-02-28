@@ -6,7 +6,7 @@ import axios from "axios";
 
 
 
-export default function Logout() {
+const Logout=()=> {
   const navigate = useNavigate();
   const handleClick = async () => {
 
@@ -35,3 +35,4 @@ const Button = styled.button`
     color: #ebe7ff;
   }
 `;
+export default Logout

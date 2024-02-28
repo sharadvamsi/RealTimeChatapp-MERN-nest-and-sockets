@@ -8,7 +8,7 @@ import ChatContainer from "../components/ChatContainer";
 import Contacts from "../components/Contacts";
 import Welcome from "../components/Welcome";
 
-export default function Chat() {
+const Chat = () => {
   const navigate = useNavigate();
   const socket = useRef();
   const [contacts, setContacts] = useState([]);
@@ -92,3 +92,5 @@ const Container = styled.div`
     }
   }
 `;
+
+export default Chat
